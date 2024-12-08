@@ -1,6 +1,3 @@
-// import React, { useState } from "react";
-
-// The about section is handled by the following code
 export default function About(props) {
   let myStyle = {
     color: props.mode === "dark" ? "white" : "#042743",
@@ -13,7 +10,7 @@ export default function About(props) {
         className="my-3"
         style={{ color: props.mode === "dark" ? "white" : "#042743" }}
       >
-        About Us
+        About TextUtils
       </h1>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
@@ -27,7 +24,7 @@ export default function About(props) {
               aria-controls="collapseOne"
               style={myStyle}
             >
-              <strong>Analyze your text</strong>
+              <strong>Powerful Text Analysis & Manipulation</strong>
             </button>
           </h2>
           <div
@@ -37,8 +34,17 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              textUtils gives you a way to analyze your text quickly and
-              efficiently. Be it word count, character count or anything else.
+              TextUtils is your comprehensive text analysis and manipulation toolkit. Our platform offers a wide range of features including:
+              <ul className="mt-2">
+                <li>Advanced word and character counting with detailed statistics</li>
+                <li>Text case conversion (uppercase, lowercase, sentence case, title case)</li>
+                <li>Smart formatting tools (bullet points, numbering, quotes)</li>
+                <li>Extra space removal and text cleanup</li>
+                <li>Reading time estimation for better content planning</li>
+                <li>Unique word analysis and frequency counting</li>
+                <li>Text reversal and custom transformations</li>
+              </ul>
+              Perfect for content creators, students, and professionals who need quick and accurate text analysis.
             </div>
           </div>
         </div>
@@ -53,7 +59,7 @@ export default function About(props) {
               aria-controls="collapseTwo"
               style={myStyle}
             >
-              <strong>Free to use</strong>
+              <strong>Free & Premium Features</strong>
             </button>
           </h2>
           <div
@@ -63,10 +69,26 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              textUtils is a free character counter tool that provides instant
-              character count & word count statistics for a given text.
-              textUtils reports the number of words and characters. Thus, it is
-              suitable for writing text with word/character limit.
+              TextUtils believes in providing value to our users:
+              <div className="mt-2">
+                <h5>Free Features:</h5>
+                <ul>
+                  <li>Unlimited text analysis and character counting</li>
+                  <li>Basic text transformations and formatting</li>
+                  <li>Word and character statistics</li>
+                  <li>Dark/Light mode support</li>
+                  <li>Mobile-responsive interface</li>
+                </ul>
+                
+                <h5 className="mt-3">Premium Features (Coming Soon):</h5>
+                <ul>
+                  <li>Advanced document analysis</li>
+                  <li>Custom text templates</li>
+                  <li>Cloud storage for text snippets</li>
+                  <li>Collaboration tools</li>
+                  <li>API access for developers</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -81,7 +103,7 @@ export default function About(props) {
               aria-controls="collapseThree"
               style={myStyle}
             >
-              <strong>Browser Compatible</strong>
+              <strong>Cross-Platform Compatibility</strong>
             </button>
           </h2>
           <div
@@ -91,15 +113,96 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              This word counter software works in any web browsers such as
-              Chrome, Firefox, Internet Explorer, Safari, Opera. It suits to
-              count characters in fb, blogs, books, excel document, pdf
-              document, essays, etc.
+              TextUtils is built with universal accessibility in mind:
+              <ul className="mt-2">
+                <li>Works flawlessly across all modern browsers (Chrome, Firefox, Safari, Edge, Opera)</li>
+                <li>Responsive design for mobile, tablet, and desktop devices</li>
+                <li>Supports text processing from various sources:
+                  <ul className="mt-1">
+                    <li>Social media posts and comments</li>
+                    <li>Word documents and PDFs (copy/paste)</li>
+                    <li>Spreadsheets and databases</li>
+                    <li>Email content and blog posts</li>
+                  </ul>
+                </li>
+                <li>Optimized performance for processing large text blocks</li>
+                <li>Accessibility features for screen readers</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingFour">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+              style={myStyle}
+            >
+              <strong>Privacy & Security</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            className="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample"
+          >
+            <div className="accordion-body" style={myStyle}>
+              Your privacy and data security are our top priorities:
+              <ul className="mt-2">
+                <li>All text processing happens locally in your browser</li>
+                <li>No data is stored on our servers</li>
+                <li>No registration or personal information required</li>
+                <li>SSL encryption for secure data transmission</li>
+                <li>Regular security audits and updates</li>
+                <li>Compliance with data protection regulations</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingFive">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+              style={myStyle}
+            >
+              <strong>Support & Community</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            className="accordion-collapse collapse"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample"
+          >
+            <div className="accordion-body" style={myStyle}>
+              Join our growing community of TextUtils users:
+              <ul className="mt-2">
+                <li>24/7 customer support via email</li>
+                <li>Comprehensive documentation and tutorials</li>
+                <li>Regular feature updates based on user feedback</li>
+                <li>Active user community forums</li>
+                <li>Developer API documentation</li>
+                <li>Educational resources for content creators</li>
+              </ul>
+              <div className="mt-3">
+                <strong>Contact Us:</strong>
+                <p className="mb-0 mt-2">Email: shaan2k3@gmail.com</p>
+                <p className="mb-0">GitHub: https://github.com/shaan4712</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="container"></div>
     </div>
   );
 }
