@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# TextUtils - Interactive Text Editor 📝
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A powerful text manipulation tool built with React and Bootstrap that provides various text transformation and analysis features in real-time.
 
-## Available Scripts
+## Live Link
+[textUtils](https://text-utils-master.vercel.app/home)
 
-In the project directory, you can run:
+## Features:
 
-### `npm start`
+### Voice to Text functionality
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Text Transformations
+- **Uppercase Conversion**: Convert text to uppercase
+- **Lowercase Conversion**: Convert text to lowercase
+- **Capitalize Words**: Capitalize the first letter of each word
+- **Sentence Case**: Convert text to sentence case
+- **Remove Extra Spaces**: Clean up unnecessary spaces
+- **Erase Text**: Quick text clearing
+- **Reverse Text**: Reverse the input text
+- **Slice Text**: Extract portions of text
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Formatting
+- **Add Bullets**: Convert text into bullet points
+- **Add Numbering**: Create numbered lists
+- **Quote Block**: Format text as quotes
+- **Add HTML Tags**: Convert text to HTML format
 
-### `npm test`
+### Utilities
+- **Copy to Clipboard**: Quick copy functionality
+- **Download Text**: Save your text as a file
+- **Undo/Redo**: Track changes with undo and redo options
+- **Sort Lines**: Arrange lines alphabetically
+- **Voice to Text**: Speech recognition for text input
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Text Analysis
+- Word count
+- Character count
+- Unique word count
+- Paragraph count
+- Reading time estimation
+- Most frequent words analysis
 
-### `npm run build`
+## Tech Stack 🛠️
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React.js
+- Bootstrap
+- Web Speech API
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Prerequisites 📋
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Before running this project, ensure you have:
+- Node.js (version 14.0 or higher)
+- npm or yarn package manager
+- Modern web browser with Web Speech API support
 
-### `npm run eject`
+## Installation & Setup 🚀
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/textutils.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Start the development server:
+```bash
+npm start
+# or
+yarn start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The application will be available at `http://localhost:3000`
 
-## Learn More
+## Building for Production 🏗️
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Create a production build:
+```bash
+npm run build
+# or
+yarn build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Browser Compatibility 🌐
 
-### Code Splitting
+The voice-to-text feature requires a browser that supports the Web Speech API. Currently supported in:
+- Google Chrome (recommended)
+- Microsoft Edge
+- Safari
+- Firefox
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact 📧
 
-### Analyzing the Bundle Size
+Mail me at: shaan2k3@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgments 🙏
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React.js team for the amazing framework
+- Bootstrap team for the UI components
