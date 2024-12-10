@@ -5,6 +5,8 @@ A powerful text manipulation tool built with React and Bootstrap that provides v
 ## Live Link
 [textUtils](https://text-utils-master.vercel.app/home)
 
+![image](https://github.com/user-attachments/assets/39b62c38-d1d5-4071-b88d-eb0d3ecb85ad)
+
 ## Features:
 
 ### Voice to Text functionality
@@ -48,9 +50,6 @@ A powerful text manipulation tool built with React and Bootstrap that provides v
 - HTML5
 - CSS3
 - JavaScript (ES6+)
-
-![image](https://github.com/user-attachments/assets/39b62c38-d1d5-4071-b88d-eb0d3ecb85ad)
-
 
 ## Prerequisites 📋
 
