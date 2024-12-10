@@ -49,6 +49,9 @@ A powerful text manipulation tool built with React and Bootstrap that provides v
 - CSS3
 - JavaScript (ES6+)
 
+![image](https://github.com/user-attachments/assets/39b62c38-d1d5-4071-b88d-eb0d3ecb85ad)
+
+
 ## Prerequisites 📋
 
 Before running this project, ensure you have:
